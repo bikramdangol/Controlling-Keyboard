@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "59E376B31D46E5750017B343"
+               BuildableName = "Controlling Keyboard.app"
+               BlueprintName = "Controlling Keyboard"
+               ReferencedContainer = "container:Controlling Keyboard.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "59E376C71D46E5750017B343"
+               BuildableName = "Controlling KeyboardTests.xctest"
+               BlueprintName = "Controlling KeyboardTests"
+               ReferencedContainer = "container:Controlling Keyboard.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "59E376D21D46E5750017B343"
+               BuildableName = "Controlling KeyboardUITests.xctest"
+               BlueprintName = "Controlling KeyboardUITests"
+               ReferencedContainer = "container:Controlling Keyboard.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "59E376B31D46E5750017B343"
+            BuildableName = "Controlling Keyboard.app"
+            BlueprintName = "Controlling Keyboard"
+            ReferencedContainer = "container:Controlling Keyboard.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "59E376B31D46E5750017B343"
+            BuildableName = "Controlling Keyboard.app"
+            BlueprintName = "Controlling Keyboard"
+            ReferencedContainer = "container:Controlling Keyboard.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "59E376B31D46E5750017B343"
+            BuildableName = "Controlling Keyboard.app"
+            BlueprintName = "Controlling Keyboard"
+            ReferencedContainer = "container:Controlling Keyboard.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
